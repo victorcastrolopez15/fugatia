@@ -1,0 +1,91 @@
+2022-05-16T08:10:50+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_rating_options() in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php:274
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php(71): Page_Generator_Pro_Shortcode_Yelp->get_fields()
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode_Yelp->add_shortcode(Array)
+#2 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(314): apply_filters('page_generator_...', Array)
+#4 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(58): Page_Generator_Pro_Shortcode->get_shortcodes()
+#5 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode->add_shortcodes('')
+#6 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\fugatia\wp-settings.php(587): do_action('init')
+#9 C:\xampp\htdocs\fugatia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\fugatia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\fugatia\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php en la línea 274
+
+2022-05-16T08:12:36+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_rating_options() in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php:274
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php(71): Page_Generator_Pro_Shortcode_Yelp->get_fields()
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode_Yelp->add_shortcode(Array)
+#2 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(314): apply_filters('page_generator_...', Array)
+#4 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(58): Page_Generator_Pro_Shortcode->get_shortcodes()
+#5 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode->add_shortcodes('')
+#6 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\fugatia\wp-settings.php(587): do_action('init')
+#9 C:\xampp\htdocs\fugatia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\fugatia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\fugatia\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php en la línea 274
+
+2022-05-16T08:14:48+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_rating_options() in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php:274
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php(71): Page_Generator_Pro_Shortcode_Yelp->get_fields()
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode_Yelp->add_shortcode(Array)
+#2 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(314): apply_filters('page_generator_...', Array)
+#4 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcode.php(58): Page_Generator_Pro_Shortcode->get_shortcodes()
+#5 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_Shortcode->add_shortcodes('')
+#6 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\fugatia\wp-settings.php(587): do_action('init')
+#9 C:\xampp\htdocs\fugatia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\fugatia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\fugatia\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\global\shortcodes\shortcode-yelp.php en la línea 274
+
+2022-05-16T08:17:12+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php:346
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php(346): implode(',', NULL)
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_AJAX->keywords_generate_locations('')
+#2 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\fugatia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_page_ge...')
+#5 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php en la línea 346
+
+2022-05-16T08:17:35+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php:346
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php(346): implode(',', NULL)
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_AJAX->keywords_generate_locations('')
+#2 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\fugatia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_page_ge...')
+#5 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php en la línea 346
+
+2022-05-16T08:28:50+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php:346
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php(346): implode(',', NULL)
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_AJAX->keywords_generate_locations('')
+#2 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\fugatia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_page_ge...')
+#5 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php en la línea 346
+
+2022-05-16T08:52:27+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php:346
+Stack trace:
+#0 C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php(346): implode(',', NULL)
+#1 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(307): Page_Generator_Pro_AJAX->keywords_generate_locations('')
+#2 C:\xampp\htdocs\fugatia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\fugatia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\fugatia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_page_ge...')
+#5 {main}
+  thrown en C:\xampp\htdocs\fugatia\wp-content\plugins\page-generator-pro\includes\admin\ajax.php en la línea 346
+

@@ -1,0 +1,1 @@
+jQuery(document).ready((function($){page_generator_pro_conditional_fields_initialize()}));

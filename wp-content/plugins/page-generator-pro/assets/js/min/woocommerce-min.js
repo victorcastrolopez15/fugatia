@@ -1,0 +1,1 @@
+jQuery(document).ready((function($){$("input.wc_input_price").removeClass("wc_input_price"),$("input.wc_input_decimal").removeClass("wc_input_decimal")}));
